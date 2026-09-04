@@ -8,6 +8,13 @@ A small, student-friendly writing analyzer for engineering assignments and exam 
 python app.py
 ```
 
+For the browser interface:
+
+```bash
+pip install -r requirements.txt
+streamlit run streamlit_app.py
+```
+
 Set the optional Gemini key before running:
 
 ```bash
