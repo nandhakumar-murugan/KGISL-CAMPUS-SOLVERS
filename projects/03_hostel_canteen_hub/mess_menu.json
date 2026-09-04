@@ -1,0 +1,54 @@
+{
+  "hostel_name": "KGiSL - IIM Men's Hostel Mess",
+  "meal_timings": {
+    "breakfast": "07:15 AM - 08:30 AM",
+    "lunch": "12:15 PM - 01:45 PM",
+    "snacks": "04:15 PM - 05:15 PM",
+    "dinner": "07:15 PM - 08:30 PM"
+  },
+  "weekly_schedule": {
+    "Monday": {
+      "breakfast": "Pongal, Ulundu Vadai, Idly, Sambar, Coconut Chutney, Tea",
+      "lunch": "Rice, Pulikulambu, Boiled Egg (Bonda for Veg), Kootu, Rasam, Buttermilk, Pickle, Vadagam",
+      "snacks": "Any Sundal, Coffee",
+      "dinner": "Parotta (2 Nos), Kuruma, Curd Rice, Kuska, Banana"
+    },
+    "Tuesday": {
+      "breakfast": "Chapathi, Kuruma, Wheat Rava Upma, Coffee",
+      "lunch": "Rice, Sambar, Poriyal, Rasam, Buttermilk, Pickle, Appalam",
+      "snacks": "Bakery Item, Tea",
+      "dinner": "Idly, Sambar, Dal Kichadi, Coconut Chutney, Rice, Rasam, Buttermilk"
+    },
+    "Wednesday": {
+      "breakfast": "Uthappam, Sambar, Variety Chutney, Tea",
+      "lunch": "Veg Biriyani or Soya Biriyani, Boiled Egg (Vadai for Veg), Rice, Rasam, Buttermilk, Pickle, Vadagam",
+      "snacks": "Onion Bonda, Tea",
+      "dinner": "Chapathi, Kuruma, Curd Rice"
+    },
+    "Thursday": {
+      "breakfast": "Poori, Potato Masal / Channa Kuruma, Rava Upma, Coconut Chutney, Coffee",
+      "lunch": "Rice, Dal, Poriyal, Rasam, Buttermilk, Pickle, Vadagam",
+      "snacks": "Bakery Item, Tea",
+      "dinner": "Onion Uthappam, Sambar, Variety Chutney, Rice, Rasam, Buttermilk"
+    },
+    "Friday": {
+      "breakfast": "Idly, Tomato Kulambu or Kuruma, Maggi Noodles, Tomato Sauce, Tea",
+      "lunch": "Rice, Sambar, Poriyal, Rasam, Buttermilk, Pickle, Appalam, Any Sweet",
+      "snacks": "Groundnut, Coffee",
+      "dinner": "Poori (3 Nos), Potato Kuruma, Semiya Payasam, Rice, Rasam, Buttermilk"
+    },
+    "Saturday": {
+      "breakfast": "Dosai, Sambar, Kara Chutney, Tea",
+      "lunch": "Rice, Green Dal Kulambu / Tomato Kulambu, Poriyal, Rasam, Buttermilk, Pickle, Vadagam",
+      "snacks": "Sprouts, Tea",
+      "dinner": "Veg Fried Rice, Variety Rice, Tomato Sauce, Rice, Rasam, Banana"
+    },
+    "Sunday": {
+      "breakfast": "Bread (3 nos), Omelette (Jam for Veg), Channa Masal, Coconut Chutney, Rava Kichadi, Coffee",
+      "lunch": "Biriyani (Mushroom / Chicken / Veg / Soya), Onion Raitha, Rice, Rasam, Buttermilk, Pickle, Vadagam",
+      "snacks": "Puttu, Tea",
+      "dinner": "Dosai, Sambar, Kara Chutney, Rice, Rasam, Buttermilk",
+      "special_2nd_sunday": "Chicken Biriyani, 50g Chilli Chicken, Chapathi (2 Nos), Chicken Gravy"
+    }
+  }
+}

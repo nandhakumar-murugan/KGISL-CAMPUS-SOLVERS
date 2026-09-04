@@ -1,16 +1,33 @@
 [
   {
     "circular_id": "CIR-2026-041",
-    "title": "Campus Decorum and Classroom Mobile Phone Protocol",
-    "date": "2026-09-08",
-    "issued_by": "Principal Office - KGiSL Institute of Technology",
-    "summary": "Strictly regulates mobile phone usage inside academic blocks and labs during lecture hours. Phones must remain in bags on silent mode."
+    "title": "CIRCULAR # 041: Instructions Regarding Mobile Phone Usage by Students",
+    "date": "2026-09-03",
+    "effective_date": "2026-09-08",
+    "issued_by": "Dr. P. Rajkumar, Director - IQAC, KGiSL Institute of Technology",
+    "summary": "Mandatory campus-wide guidelines strictly prohibiting mobile phone usage during lecture and laboratory hours across all academic blocks. Strict adherence enforced by faculty and HODs starting Tuesday, September 8, 2026."
+  },
+  {
+    "circular_id": "CIR-2026-040",
+    "title": "CIRCULAR # 040: Intimation of Education Loan Mela for Higher Semester Students",
+    "date": "2026-08-31",
+    "event_date": "2026-09-17",
+    "issued_by": "Director - IQAC, KGiSL Institute of Technology",
+    "summary": "Coimbatore District Administration Education Loan Mela organized at PSG College of Technology on September 17, 2026. Higher semester students requiring fee loans can register via the official Google Form."
   },
   {
     "circular_id": "CIR-2026-038",
-    "title": "Autonomous Semester End Examination Fee Schedule",
-    "date": "2026-08-20",
-    "issued_by": "Controller of Examinations (CoE)",
-    "summary": "Deadlines for regular and arrear examination registration, hall ticket disbursement, and payment portal access at results.kgkite.ac.in."
+    "title": "CIRCULAR # 038: Intimation of Introduction of New Campus ERP (Digiicampus)",
+    "date": "2026-08-31",
+    "effective_date": "2026-09-01",
+    "issued_by": "Director - IQAC, KGiSL Institute of Technology",
+    "summary": "Official migration from legacy E-Campus to 'Digiicampus' ERP effective September 1, 2026. All academic tracking, attendance, fee management, and student profiles are transitioned to Digiicampus."
+  },
+  {
+    "circular_id": "DOTE-2026-PG",
+    "title": "Government of Tamil Nadu - Directorate of Technical Education - PG Abroad Scheme 2026-27",
+    "date": "2026-09-02",
+    "issued_by": "Directorate of Technical Education (DOTE), Chennai / HOD Cyber Security",
+    "summary": "Financial assistance of up to ₹36 Lakh per annum per student for pursuing full-time, on-campus Master's degrees at approved QS-ranked foreign universities for eligible government school/polytechnic alumni."
   }
 ]
