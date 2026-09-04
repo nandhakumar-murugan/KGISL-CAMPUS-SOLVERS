@@ -101,5 +101,25 @@ Contributions are welcome from students across all departments and years:
 
 ---
 
-## 📜 7. License
+## 🌟 7. Hall of Contributors
+
+Special thanks to our verified open-source student contributors building for the KiTE campus:
+
+<p align="center">
+  <a href="https://github.com/nandhakumar-murugan">
+    <img src="https://github.com/nandhakumar-murugan.png" width="65px;" alt="Nandhakumar Murugan" style="border-radius:50%;" /><br />
+    <sub><b>Nandhakumar M</b></sub><br />
+    <small>Maintainer / GSA</small>
+  </a>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://github.com/prabakar09">
+    <img src="https://github.com/prabakar09.png" width="65px;" alt="Prabakar A" style="border-radius:50%;" /><br />
+    <sub><b>Prabakar A</b></sub><br />
+    <small>Contributor (PR #3)</small>
+  </a>
+</p>
+
+---
+
+## 📜 8. License
 This repository is licensed under the **Apache License 2.0**.
