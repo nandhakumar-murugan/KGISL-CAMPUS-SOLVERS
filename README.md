@@ -45,6 +45,7 @@ The Google Student Community at KiTE represents an active, student-driven develo
 | **[projects/01_kite_syllabus_ai_bot/](projects/01_kite_syllabus_ai_bot/)** | **Academic & Examination Preparation** | RAG-grounded Gemini AI assistant mapped to KiTE Autonomous Regulations (2024). Ingests official course syllabi and question banks to generate instant 2-mark & 16-mark revision solutions. |
 | **[projects/02_campus_circular_assistant/](projects/02_campus_circular_assistant/)** | **Governance & Administrative Queries** | Searchable vector knowledge base indexing college circulars (e.g., Digiicampus ERP migration #038, Education Loan Mela #040, Campus Mobile Regulations #041). |
 | **[projects/03_hostel_canteen_hub/](projects/03_hostel_canteen_hub/)** | **Student Daily Life & Food Logistics** | Daily hostel mess menu tracker (IIM Men's Hostel), canteen feedback analytics, and nutritional voting. |
+| **[projects/04_academic_writing_assistant/](projects/04_academic_writing_assistant/)** | **Academic Writing Support** | Offline-friendly sentence analysis with optional Gemini explanations for assignments, reports, and exam preparation. |
 
 ---
 
