@@ -117,7 +117,13 @@ Special thanks to our verified open-source student contributors building for the
   <a href="https://github.com/prabakar09">
     <img src="https://github.com/prabakar09.png" width="65px;" alt="Prabakar A" style="border-radius:50%;" /><br />
     <sub><b>Prabakar A</b></sub><br />
-    <small>Contributor (PR #3)</small>
+    <small>Contributor (PR #3, #4)</small>
+  </a>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://github.com/harinisri-2024-aia">
+    <img src="https://github.com/harinisri-2024-aia.png" width="65px;" alt="Harini Sri" style="border-radius:50%;" /><br />
+    <sub><b>Harini Sri</b></sub><br />
+    <small>Contributor (PR #8)</small>
   </a>
 </p>
 
