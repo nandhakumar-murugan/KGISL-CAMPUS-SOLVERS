@@ -42,27 +42,23 @@ The Google Student Community at KiTE represents an active, student-driven develo
 
 | Project Directory | Focus Domain | What It Solves |
 |---|---|---|
-| **[projects/01_kite_syllabus_ai_bot/](projects/01_kite_syllabus_ai_bot/)** | **Academic Prep & Arrear Clearance** | RAG-grounded Gemini AI assistant mapped to KiTE Autonomous Regulations (2024). Ingests official course syllabi and question banks to generate instant 2-mark & 16-mark revision solutions. |
+| **[projects/01_kite_syllabus_ai_bot/](projects/01_kite_syllabus_ai_bot/)** | **Academic & Examination Preparation** | RAG-grounded Gemini AI assistant mapped to KiTE Autonomous Regulations (2024). Ingests official course syllabi and question banks to generate instant 2-mark & 16-mark revision solutions. |
 | **[projects/02_campus_circular_assistant/](projects/02_campus_circular_assistant/)** | **Governance & Administrative Queries** | Searchable vector knowledge base indexing college circulars (e.g., Digiicampus ERP migration #038, Education Loan Mela #040, Campus Mobile Regulations #041). |
 | **[projects/03_hostel_canteen_hub/](projects/03_hostel_canteen_hub/)** | **Student Daily Life & Food Logistics** | Daily hostel mess menu tracker (IIM Men's Hostel), canteen feedback analytics, and nutritional voting. |
 
 ---
 
-## 📚 3. KiTE Autonomous Academic Curricula Mapped
+## 📚 3. Multi-Department Engineering Academic Scope
 
-The AI exam tutor currently indexes the **Regulations 2024 (Class of 2024–2028)** curricula, prioritizing 5th-semester core papers and university arrear clearance:
+The AI academic tutor is designed as an open platform supporting course curricula across all undergraduate departments at KiTE:
 
-* `24UCY511`: Secure Software Systems
-* `24UCY512`: Cryptography & Cyber Security
-* `24UCY513`: Secure Coding and Reverse Engineering
-* `24UCYP14`: Incident Response and Management
-* `24UITP01`: Cloud Computing and Virtualization
-* `24UIT411`: Web Technologies
-* `24USDE13`: Convolutional Neural Networks
-* `24USS501`: Soft Skills
-* `24UMC004`: Disaster Management
-* `G2INN002`: Addon Innovation (Experiential Learning)
-* `24UMA161`: Calculus and Matrix Algebra *(Targeted Arrear Clearance Track)*
+* 💻 **Computer Science & Engineering (CSE / Cyber Security)**: Data Structures, Operating Systems, Database Management Systems, Computer Networks, Cryptography & Network Security.
+* 🤖 **Artificial Intelligence & Data Science (AI & DS / AIML)**: Machine Learning, Deep Learning, Big Data Analytics, Neural Networks, Natural Language Processing.
+* 🌐 **Information Technology (IT / CSBS)**: Web Development, Cloud Computing, Enterprise Application Architecture, Software Engineering.
+* ⚡ **Electronics & Communication (ECE)**: Digital Signal Processing, Embedded Systems, Microcontrollers, VLSI Design.
+* ⚙️ **Mechanical Engineering**: Engineering Mechanics, Thermodynamics, Manufacturing Technology, Robotics & Automation.
+
+> *Students from any department can contribute verified syllabi, question banks, and notes to expand their department's coverage!*
 
 ---
 

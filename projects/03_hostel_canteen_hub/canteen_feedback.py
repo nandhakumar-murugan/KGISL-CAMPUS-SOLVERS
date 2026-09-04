@@ -15,4 +15,4 @@ def record_feedback(student_id: str, meal_type: str, rating: int, comment: str):
 
 if __name__ == "__main__":
     print("=== KiTE Canteen & Mess Feedback ===")
-    record_feedback("24UCY129", "Breakfast", 5, "Idli and Sambar was fresh and hot!")
+    record_feedback("KITE_STUDENT_01", "Breakfast", 5, "Idli and Sambar was fresh and hot!")
