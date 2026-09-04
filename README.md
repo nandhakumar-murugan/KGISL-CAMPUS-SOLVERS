@@ -100,7 +100,7 @@ Contributions are welcome from students across all departments and years:
 * 🌱 **Beginners**: Improve documentation, add question-and-answer pairs, or fix issue tickets.
 * 🎨 **Designers & Curators**: Collect department question banks, format past examination papers, or design Figma UI mockups.
 
-👉 *Check out [CONTRIBUTING.md](CONTRIBUTING.md) to make your first Pull Request.*
+👉 *Read our step-by-step [Student Onboarding Guide](STUDENT_ONBOARDING_GUIDE.md) and [CONTRIBUTING.md](CONTRIBUTING.md) to make your first Pull Request.*
 
 ---
 
