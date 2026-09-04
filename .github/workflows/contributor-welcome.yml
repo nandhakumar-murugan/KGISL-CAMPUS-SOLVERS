@@ -1,0 +1,38 @@
+name: Contributor Welcome & PR Triage
+
+on:
+  pull_request_target:
+    types: [opened]
+  issues:
+    types: [opened]
+
+permissions:
+  pull-requests: write
+  issues: write
+
+jobs:
+  welcome:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Welcome New Contributor
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const isPR = !!context.payload.pull_request;
+            const author = context.actor;
+            
+            if (isPR) {
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: context.payload.pull_request.number,
+                body: `### 👋 Welcome @${author} to KGiSL Campus Solvers!\n\nThank you for opening a Pull Request and contributing to our open-source campus developer community at KiTE! 🚀\n\n- 🔍 Our team will review your changes shortly.\n- 💡 Make sure your PR description clearly states what you added or resolved.\n\n*Built with ❤️ by KGiSL Student Community.*`
+              });
+            } else {
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: context.payload.issue.number,
+                body: `### 👋 Welcome @${author}!\n\nThank you for filing this issue on **KGiSL Campus Solvers**. Our student maintainers will review your submission soon. 🎓✨`
+              });
+            }
