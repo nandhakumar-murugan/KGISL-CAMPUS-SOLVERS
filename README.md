@@ -6,6 +6,7 @@
 [![AI Engine](https://img.shields.io/badge/Powered_by-Google_Gemini_API-34A853?style=for-the-badge&logo=googlegemini)](https://ai.google.dev/)
 [![License](https://img.shields.io/badge/License-Apache_2.0-green.svg?style=for-the-badge)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge)](CONTRIBUTING.md)
+[![CI Tests](https://github.com/nandhakumar-murugan/KGISL-CAMPUS-SOLVERS/actions/workflows/ci.yml/badge.svg)](https://github.com/nandhakumar-murugan/KGISL-CAMPUS-SOLVERS/actions/workflows/ci.yml)
 [![Discussions](https://img.shields.io/badge/Discussions-Join_Q%26A-8A2BE2?style=for-the-badge&logo=github)](https://github.com/nandhakumar-murugan/KGISL-CAMPUS-SOLVERS/discussions)
 [![Stars](https://img.shields.io/github/stars/nandhakumar-murugan/KGISL-CAMPUS-SOLVERS?style=for-the-badge&logo=github&color=gold)](https://github.com/nandhakumar-murugan/KGISL-CAMPUS-SOLVERS/stargazers)
 
