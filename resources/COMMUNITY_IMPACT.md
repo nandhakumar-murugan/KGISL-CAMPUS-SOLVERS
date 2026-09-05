@@ -64,3 +64,16 @@
   * Provides continuous guidance on campus AI initiatives, research methodologies, and institutional alignment.
 * **Head of Google Campus Community**: **Nandhakumar M**
   * Spearheading developer onboarding, hackathon preparation, and open-source contributions.
+
+---
+
+## 💬 5. Student Testimonials & Community Voice
+
+### Harshini K R (II Year, CSE-A, KiTE)
+* **Initiative**: *Fund My Crazy: Build Night Edition (27 August 2026)*
+* **Certificate ID**: `GSA-FMC-2026-023` (Issued by GSA Program & School of Innovation)
+* **AI Prototyping Domain**: Reimagining & visualising future urban infrastructure using **Google Gemini** & Nano Banana.
+* **Public LinkedIn Showcase**: [Harshini K R on LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7502001557899620352/)
+* **Mentorship & Community Impact**:
+  > *"🚀 From a crazy idea to a visualized solution... Excited to share that I participated in the Fund My Crazy: Build Night Edition, organized under the Google Student Ambassador Program 2026, in collaboration with the School of Innovation (SOI) & Department of AI & DS, KGiSL Institute of Technology! The challenge gave me an opportunity to explore the possibilities of Generative AI... Really appreciate the effort you put into creating opportunities like this for us to explore AI, creativity, and new ideas."*
+
