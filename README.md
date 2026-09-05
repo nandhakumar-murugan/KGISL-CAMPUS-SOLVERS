@@ -12,6 +12,7 @@
   <a href="projects"><img src="https://img.shields.io/badge/Test_Suite-Passing_(8%2F8_Tests)-34A853?style=for-the-badge&logo=pytest&logoColor=white" alt="Test Suite Passing" /></a>
   <a href="https://github.com/nandhakumar-murugan/KGISL-CAMPUS-SOLVERS/discussions"><img src="https://img.shields.io/badge/Discussions-Join_Community-8A2BE2?style=for-the-badge&logo=github&logoColor=white" alt="Discussions" /></a>
   <a href="https://github.com/nandhakumar-murugan/KGISL-CAMPUS-SOLVERS/stargazers"><img src="https://img.shields.io/github/stars/nandhakumar-murugan/KGISL-CAMPUS-SOLVERS?style=for-the-badge&logo=github&color=gold" alt="Stars" /></a>
+  <a href="https://github.com/nandhakumar-murugan/KGISL-CAMPUS-SOLVERS"><img src="https://komarev.com/ghpvc/?username=kgisl-campus-solvers&label=Visitors+Count&color=0e7fc0&style=for-the-badge" alt="Visitors Count" /></a>
 </p>
 
 ---
