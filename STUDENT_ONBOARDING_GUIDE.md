@@ -62,6 +62,7 @@ git remote add upstream https://github.com/nandhakumar-murugan/KGISL-CAMPUS-SOLV
 # 3. Create a dedicated feature branch
 git checkout -b feat/my-first-feature
 ```
+> 💡 **New to Python virtual environments or Git setup?** Check the [Lab and Environment Setup Guide](docs/LAB_AND_ENVIRONMENT_SETUP.md) for step-by-step help.
 
 ---
 
