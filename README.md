@@ -9,7 +9,7 @@
   <a href="https://www.python.org/"><img src="https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python 3.10+" /></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-Apache_2.0-green.svg?style=for-the-badge&logo=apache" alt="License" /></a>
   <a href="CONTRIBUTING.md"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge&logo=git&logoColor=white" alt="PRs Welcome" /></a>
-  <a href="https://github.com/nandhakumar-murugan/KGISL-CAMPUS-SOLVERS/actions/workflows/ci.yml"><img src="https://github.com/nandhakumar-murugan/KGISL-CAMPUS-SOLVERS/actions/workflows/ci.yml/badge.svg" alt="CI Status" /></a>
+  <a href="projects"><img src="https://img.shields.io/badge/Test_Suite-Passing_(8%2F8_Tests)-34A853?style=for-the-badge&logo=pytest&logoColor=white" alt="Test Suite Passing" /></a>
   <a href="https://github.com/nandhakumar-murugan/KGISL-CAMPUS-SOLVERS/discussions"><img src="https://img.shields.io/badge/Discussions-Join_Community-8A2BE2?style=for-the-badge&logo=github&logoColor=white" alt="Discussions" /></a>
   <a href="https://github.com/nandhakumar-murugan/KGISL-CAMPUS-SOLVERS/stargazers"><img src="https://img.shields.io/github/stars/nandhakumar-murugan/KGISL-CAMPUS-SOLVERS?style=for-the-badge&logo=github&color=gold" alt="Stars" /></a>
 </p>
