@@ -193,10 +193,16 @@ Special thanks to our verified open-source student contributors building for the
     <small>Collaborator (Issue #14)</small>
   </a>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://github.com/DHINESH-KRISHNAMOORTHY">
-    <img src="https://github.com/DHINESH-KRISHNAMOORTHY.png" width="65px;" alt="Dhinesh K" style="border-radius:50%;" /><br />
-    <sub><b>Dhinesh K</b></sub><br />
-    <small>Collaborator (Issue #11)</small>
+  <a href="https://github.com/devisaicharan">
+    <img src="https://github.com/devisaicharan.png" width="65px;" alt="Devi Sai Charan" style="border-radius:50%;" /><br />
+    <sub><b>Devi Sai Charan</b></sub><br />
+    <small>Contributor (PR #15)</small>
+  </a>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://github.com/Mohaneswari-Pugazenthi">
+    <img src="https://github.com/Mohaneswari-Pugazenthi.png" width="65px;" alt="Mohaneswari Pugazenthi" style="border-radius:50%;" /><br />
+    <sub><b>Mohaneswari P</b></sub><br />
+    <small>Collaborator (Issue #12)</small>
   </a>
 </p>
 
