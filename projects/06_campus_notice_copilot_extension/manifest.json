@@ -25,5 +25,9 @@
     }
   ],
   "permissions": ["storage"],
-  "host_permissions": ["https://web.whatsapp.com/*"]
+  "host_permissions": [
+    "https://web.whatsapp.com/*",
+    "http://127.0.0.1/*",
+    "http://localhost/*"
+  ]
 }
