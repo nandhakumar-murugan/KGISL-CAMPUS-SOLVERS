@@ -2,6 +2,20 @@
 ### The Unified Open-Source Campus Utility & AI Solver Hub by KiTE Students
 
 <p align="center">
+  <a href="https://about.google/"><img src="assets/logos/google.svg" alt="Google" height="34" /></a>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://ai.google.dev/"><img src="assets/logos/google_gemini.svg" alt="Google Gemini" height="34" /></a>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://www.kgkite.ac.in"><img src="assets/logos/kgisl_edu.png" alt="KGiSL Educational Institutions" height="34" /></a>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://www.python.org/"><img src="assets/logos/python.svg" alt="Python" height="34" /></a>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://streamlit.io"><img src="assets/logos/streamlit.svg" alt="Streamlit" height="34" /></a>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://github.com/nandhakumar-murugan/KGISL-CAMPUS-SOLVERS"><img src="assets/logos/github.svg" alt="GitHub" height="34" /></a>
+</p>
+
+<p align="center">
   <a href="https://github.com/nandhakumar-murugan"><img src="https://img.shields.io/badge/Initiative-Google_Student_Ambassador-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Google Student Ambassador" /></a>
   <a href="https://www.kgkite.ac.in"><img src="https://img.shields.io/badge/Campus-KGiSL_Institute_of_Technology-EA4335?style=for-the-badge&logo=googleclassroom&logoColor=white" alt="Institution" /></a>
   <a href="https://ai.google.dev/"><img src="https://img.shields.io/badge/Powered_by-Google_Gemini_API-34A853?style=for-the-badge&logo=googlegemini&logoColor=white" alt="Gemini API" /></a>
@@ -69,26 +83,29 @@ Students building in this repository have access to world-class, 100% free devel
 
 | Platform / Tool | Direct Portal | Core Developer Capabilities | Student Access Tier |
 |:---|:---|:---|:---:|
-| **Google AI Studio** | [aistudio.google.com](https://aistudio.google.com/) | Prototyping console for **Gemini 2.0 Flash** and **Gemini 1.5 Pro**, structured JSON schema validation, multimodal tokens, and system instructions. | 100% Free (No CC) |
-| **Google Gemini API** | [ai.google.dev](https://ai.google.dev/) | Canonical SDK documentation for Python (`google-genai`), Node.js, Go, and REST APIs. | Free Quotas |
-| **Google One AI Premium** | [one.google.com/ai-student](https://one.google.com/ai-student) | 12 months complimentary access to **Gemini Advanced** (Gemini 2.5 Pro) and **2 TB Google Cloud storage** for verified students. | Student Sponsored |
-| **Google Cloud Skills Boost** | [cloudskillsboost.google](https://www.cloudskillsboost.google/) | Hands-on labs, Qwiklabs tokens, and preparation paths for Google Cloud Associate Cloud Engineer (ACE) and Generative AI Leader badges. | Free Quests |
-| **Google Developer Profile** | [developers.google.com](https://developers.google.com/) | Verified public engineering portfolio tracking official skill badges, certifications, and developer level. | 100% Free |
-| **Google Colaboratory** | [colab.research.google.com](https://colab.research.google.com/) | Cloud-hosted Jupyter notebooks with zero configuration and free T4/V100 GPU acceleration. | Free Tier |
-| **Google DeepMind** | [deepmind.google](https://deepmind.google/) | Open research papers, AlphaFold 3 biology modeling, and Gemma 2 open weights. | Open Research |
-| **Project IDX** | [idx.dev](https://idx.dev/) | Google's cloud-native workspace powered by Codey and Gemini for full-stack, web, and multiplatform development. | Free Preview |
-| **Firebase Cloud Services** | [firebase.google.com](https://firebase.google.com/) | Realtime Database, Firestore, Cloud Authentication, and static hosting for fast campus web apps. | Free Spark Tier |
-| **Kaggle Learn & Datasets** | [kaggle.com/learn](https://www.kaggle.com/learn) | Interactive micro-courses on Python, Pandas, Machine Learning, Deep Learning, and 30+ weekly GPU/TPU hours. | 100% Free |
+| <img src="assets/logos/google_gemini_sparkle.svg" width="16" height="16" alt="Gemini" /> **Google AI Studio** | [aistudio.google.com](https://aistudio.google.com/) | Prototyping console for **Gemini 2.0 Flash** and **Gemini 1.5 Pro**, structured JSON schema validation, multimodal tokens, and system instructions. | 100% Free (No CC) |
+| <img src="assets/logos/google_gemini_sparkle.svg" width="16" height="16" alt="Gemini API" /> **Google Gemini API** | [ai.google.dev](https://ai.google.dev/) | Canonical SDK documentation for Python (`google-genai`), Node.js, Go, and REST APIs. | Free Quotas |
+| <img src="assets/logos/google.svg" width="20" height="14" alt="Google One" /> **Google One AI Premium** | [one.google.com/ai-student](https://one.google.com/ai-student) | 12 months complimentary access to **Gemini Advanced** (Gemini 2.5 Pro) and **2 TB Google Cloud storage** for verified students. | Student Sponsored |
+| <img src="assets/logos/google.svg" width="20" height="14" alt="Google Cloud" /> **Google Cloud Skills Boost** | [cloudskillsboost.google](https://www.cloudskillsboost.google/) | Hands-on labs, Qwiklabs tokens, and preparation paths for Google Cloud Associate Cloud Engineer (ACE) and Generative AI Leader badges. | Free Quests |
+| <img src="assets/logos/google.svg" width="20" height="14" alt="Google Dev" /> **Google Developer Profile** | [developers.google.com](https://developers.google.com/) | Verified public engineering portfolio tracking official skill badges, certifications, and developer level. | 100% Free |
+| <img src="assets/logos/google.svg" width="20" height="14" alt="Colab" /> **Google Colaboratory** | [colab.research.google.com](https://colab.research.google.com/) | Cloud-hosted Jupyter notebooks with zero configuration and free T4/V100 GPU acceleration. | Free Tier |
+| <img src="assets/logos/google.svg" width="20" height="14" alt="DeepMind" /> **Google DeepMind** | [deepmind.google](https://deepmind.google/) | Open research papers, AlphaFold 3 biology modeling, and Gemma 2 open weights. | Open Research |
+| <img src="assets/logos/google.svg" width="20" height="14" alt="IDX" /> **Project IDX** | [idx.dev](https://idx.dev/) | Google's cloud-native workspace powered by Codey and Gemini for full-stack, web, and multiplatform development. | Free Preview |
+| <img src="assets/logos/google.svg" width="20" height="14" alt="Firebase" /> **Firebase Cloud Services** | [firebase.google.com](https://firebase.google.com/) | Realtime Database, Firestore, Cloud Authentication, and static hosting for fast campus web apps. | Free Spark Tier |
+| <img src="assets/logos/google.svg" width="20" height="14" alt="Kaggle" /> **Kaggle Learn & Datasets** | [kaggle.com/learn](https://www.kaggle.com/learn) | Interactive micro-courses on Python, Pandas, Machine Learning, Deep Learning, and 30+ weekly GPU/TPU hours. | 100% Free |
 
 ### 🛠️ Open-Source Engineering & Frameworks
 
 | Tool / Framework | Official Documentation | Role in KGISL Solvers |
 |:---|:---|:---|
-| **Streamlit** | [streamlit.io](https://streamlit.io/) | Interactive UI engine for Subprojects #04 and #05 |
-| **LangChain** | [python.langchain.com](https://python.langchain.com/) | RAG indexing and document chunking for KiTE Autonomous syllabi |
-| **FastAPI** | [fastapi.tiangolo.com](https://fastapi.tiangolo.com/) | High-performance asynchronous REST microservices |
-| **Hugging Face** | [huggingface.co](https://huggingface.co/) | Open-weight Indic models and multilingual tokenizers |
-| **GitHub Student Pack** | [education.github.com/pack](https://education.github.com/pack) | Free GitHub Copilot, custom domains, and cloud deployment credits |
+| <img src="assets/logos/streamlit.svg" width="16" height="16" alt="Streamlit" /> **Streamlit** | [streamlit.io](https://streamlit.io/) | Interactive UI engine for Subprojects #04 and #05 |
+| <img src="assets/logos/python.svg" width="16" height="16" alt="Python" /> **Python 3.10+** | [python.org](https://www.python.org/) | Core language runtime for all backend scripts and CLI tools |
+| <img src="assets/logos/github.svg" width="16" height="16" alt="GitHub" /> **GitHub Student Pack** | [education.github.com/pack](https://education.github.com/pack) | Free GitHub Copilot, custom domains, and cloud deployment credits |
+| <img src="assets/logos/pytest.svg" width="16" height="16" alt="Pytest" /> **Pytest** | [pytest.org](https://docs.pytest.org/) | Comprehensive automated test suite running across all subprojects |
+| <img src="assets/logos/apache.svg" width="16" height="16" alt="Apache" /> **Apache 2.0** | [apache.org/licenses](https://www.apache.org/licenses/LICENSE-2.0) | Permissive open-source license governing all solver codebases |
+| 🦜 **LangChain** | [python.langchain.com](https://python.langchain.com/) | RAG indexing and document chunking for KiTE Autonomous syllabi |
+| ⚡ **FastAPI** | [fastapi.tiangolo.com](https://fastapi.tiangolo.com/) | High-performance asynchronous REST microservices |
+| 🤗 **Hugging Face** | [huggingface.co](https://huggingface.co/) | Open-weight Indic models and multilingual tokenizers |
 
 👉 *For deep-dive setup guides, consult our [Master Developer Resources Directory](resources/DEVELOPER_RESOURCES_DIRECTORY.md).*
 
@@ -134,16 +151,25 @@ The AI academic tutor is designed as an open platform supporting course curricul
 
 ## 👥 6. Mentorship & Community Leadership
 
-### Campus & Research Mentorship:
-* **Dr. Senathipathi Kannusamy**
-  * *Campus Leadership & Research Guidance*
-  * KGiSL Institute of Technology (KiTE), Autonomous, Coimbatore
-
-### Student Leadership & Maintainers:
-* **Nandhakumar M**
-  * *Founder, Head of Google Campus Community & Maintainer*
-  * Google Student Ambassador (GID: 36) | "The Advocate" (REOAS)
-  * B.E. Computer Science and Engineering (Cyber Security), KiTE
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <p align="center"><img src="assets/logos/kgisl_edu.png" height="70" alt="KGiSL Educational Institutions" /></p>
+      <b>Campus & Research Mentorship:</b><br />
+      <b>Dr. Senathipathi Kannusamy</b><br />
+      <i>Campus Leadership & Research Guidance</i><br />
+      KGiSL Institute of Technology (KiTE), Autonomous, Coimbatore
+    </td>
+    <td width="50%" valign="top">
+      <p align="center"><img src="assets/logos/google_student_ambassadors.jpg" height="70" alt="Google Student Ambassador" /></p>
+      <b>Student Leadership & Maintainer:</b><br />
+      <b>Nandhakumar M</b><br />
+      <i>Founder, Head of Google Campus Community & Maintainer</i><br />
+      Google Student Ambassador (GID: 36) | "The Advocate" (REOAS)<br />
+      B.E. Computer Science and Engineering (Cyber Security), KiTE
+    </td>
+  </tr>
+</table>
 
 ---
 
