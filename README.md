@@ -164,47 +164,31 @@ Co-authored-by: Collaborator Name <collaborator-email@users.noreply.github.com>
 
 ---
 
-## 🌟 8. Hall of Contributors
+## Contributors ✨
 
-Special thanks to our verified open-source student contributors building for the KiTE campus:
+Thanks go to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
-<p align="center">
-  <a href="https://github.com/nandhakumar-murugan">
-    <img src="https://github.com/nandhakumar-murugan.png" width="65px;" alt="Nandhakumar Murugan" style="border-radius:50%;" /><br />
-    <sub><b>Nandhakumar M</b></sub><br />
-    <small>Maintainer / GSA</small>
-  </a>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://github.com/prabakar09">
-    <img src="https://github.com/prabakar09.png" width="65px;" alt="Prabakar A" style="border-radius:50%;" /><br />
-    <sub><b>Prabakar A</b></sub><br />
-    <small>Contributor (PR #3, #4)</small>
-  </a>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://github.com/harinisri-2024-aia">
-    <img src="https://github.com/harinisri-2024-aia.png" width="65px;" alt="Harini Sri" style="border-radius:50%;" /><br />
-    <sub><b>Harini Sri</b></sub><br />
-    <small>Contributor (PR #8)</small>
-  </a>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://github.com/Bala050814">
-    <img src="https://github.com/Bala050814.png" width="65px;" alt="Bala" style="border-radius:50%;" /><br />
-    <sub><b>Bala</b></sub><br />
-    <small>Collaborator (Issue #14)</small>
-  </a>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://github.com/devisaicharan">
-    <img src="https://github.com/devisaicharan.png" width="65px;" alt="Devi Sai Charan" style="border-radius:50%;" /><br />
-    <sub><b>Devi Sai Charan</b></sub><br />
-    <small>Contributor (PR #15)</small>
-  </a>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://github.com/Mohaneswari-Pugazenthi">
-    <img src="https://github.com/Mohaneswari-Pugazenthi.png" width="65px;" alt="Mohaneswari Pugazenthi" style="border-radius:50%;" /><br />
-    <sub><b>Mohaneswari P</b></sub><br />
-    <small>Collaborator (Issue #12)</small>
-  </a>
-</p>
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tbody>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/nandhakumar-murugan"><img src="https://github.com/nandhakumar-murugan.png" width="100px;" alt="Nandhakumar M"/><br /><sub><b>Nandhakumar M</b></sub></a><br /><a href="#maintenance" title="Maintenance">🚧</a> <a href="https://github.com/nandhakumar-murugan/KGISL-CAMPUS-SOLVERS/commits?author=nandhakumar-murugan" title="Code">💻</a> <a href="#ideas" title="Ideas, Planning, & Feedback">🤔</a> <a href="#talk" title="Talks">📢</a> <a href="#review" title="Reviewed Pull Requests">👀</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/prabakar09"><img src="https://github.com/prabakar09.png" width="100px;" alt="Prabakar A"/><br /><sub><b>Prabakar A</b></sub></a><br /><a href="https://github.com/nandhakumar-murugan/KGISL-CAMPUS-SOLVERS/commits?author=prabakar09" title="Code">💻</a> <a href="https://github.com/nandhakumar-murugan/KGISL-CAMPUS-SOLVERS/pulls?q=is%3Apr+author%3Aprabakar09" title="Documentation">📖</a> <a href="#review" title="Reviewed Pull Requests">👀</a> <a href="#tools" title="Tools">🔧</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/devisaicharan"><img src="https://github.com/devisaicharan.png" width="100px;" alt="Devi Sai Charan"/><br /><sub><b>Devi Sai Charan</b></sub></a><br /><a href="https://github.com/nandhakumar-murugan/KGISL-CAMPUS-SOLVERS/pulls?q=is%3Apr+author%3Adevisaicharan" title="Documentation">📖</a> <a href="https://github.com/nandhakumar-murugan/KGISL-CAMPUS-SOLVERS/commits?author=devisaicharan" title="Code">💻</a> <a href="#tools" title="Tools">🔧</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/harinisri-2024-aia"><img src="https://github.com/harinisri-2024-aia.png" width="100px;" alt="Harini Sri"/><br /><sub><b>Harini Sri</b></sub></a><br /><a href="https://github.com/nandhakumar-murugan/KGISL-CAMPUS-SOLVERS/commits?author=harinisri-2024-aia" title="Code">💻</a> <a href="https://github.com/nandhakumar-murugan/KGISL-CAMPUS-SOLVERS/pulls?q=is%3Apr+author%3Aharinisri-2024-aia" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/Bala050814"><img src="https://github.com/Bala050814.png" width="100px;" alt="Bala"/><br /><sub><b>Bala</b></sub></a><br /><a href="https://github.com/nandhakumar-murugan/KGISL-CAMPUS-SOLVERS/issues/14" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/nandhakumar-murugan/KGISL-CAMPUS-SOLVERS/issues/14" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/Mohaneswari-Pugazenthi"><img src="https://github.com/Mohaneswari-Pugazenthi.png" width="100px;" alt="Mohaneswari Pugazenthi"/><br /><sub><b>Mohaneswari P</b></sub></a><br /><a href="https://github.com/nandhakumar-murugan/KGISL-CAMPUS-SOLVERS/issues/12" title="Code">💻</a> <a href="https://github.com/nandhakumar-murugan/KGISL-CAMPUS-SOLVERS/issues/12" title="Ideas, Planning, & Feedback">🤔</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/DHINESH-KRISHNAMOORTHY"><img src="https://github.com/DHINESH-KRISHNAMOORTHY.png" width="100px;" alt="Dhinesh K"/><br /><sub><b>Dhinesh K</b></sub></a><br /><a href="https://github.com/nandhakumar-murugan/KGISL-CAMPUS-SOLVERS/issues/11" title="Documentation">📖</a> <a href="https://github.com/nandhakumar-murugan/KGISL-CAMPUS-SOLVERS/issues/11" title="Ideas, Planning, & Feedback">🤔</a></td>
+    </tr>
+  </tbody>
+</table>
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
 
 ---
 

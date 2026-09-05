@@ -1,0 +1,90 @@
+{
+  "projectName": "KGISL-CAMPUS-SOLVERS",
+  "projectOwner": "nandhakumar-murugan",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "nandhakumar-murugan",
+      "name": "Nandhakumar M",
+      "avatar_url": "https://github.com/nandhakumar-murugan.png",
+      "profile": "https://github.com/nandhakumar-murugan",
+      "contributions": [
+        "code",
+        "maintenance",
+        "ideas",
+        "talk",
+        "review"
+      ]
+    },
+    {
+      "login": "prabakar09",
+      "name": "Prabakar A",
+      "avatar_url": "https://github.com/prabakar09.png",
+      "profile": "https://github.com/prabakar09",
+      "contributions": [
+        "code",
+        "doc",
+        "review",
+        "tool"
+      ]
+    },
+    {
+      "login": "devisaicharan",
+      "name": "Devi Sai Charan",
+      "avatar_url": "https://github.com/devisaicharan.png",
+      "profile": "https://github.com/devisaicharan",
+      "contributions": [
+        "doc",
+        "code",
+        "tool"
+      ]
+    },
+    {
+      "login": "harinisri-2024-aia",
+      "name": "Harini Sri",
+      "avatar_url": "https://github.com/harinisri-2024-aia.png",
+      "profile": "https://github.com/harinisri-2024-aia",
+      "contributions": [
+        "code",
+        "doc"
+      ]
+    },
+    {
+      "login": "Bala050814",
+      "name": "Bala",
+      "avatar_url": "https://github.com/Bala050814.png",
+      "profile": "https://github.com/Bala050814",
+      "contributions": [
+        "ideas",
+        "code"
+      ]
+    },
+    {
+      "login": "Mohaneswari-Pugazenthi",
+      "name": "Mohaneswari P",
+      "avatar_url": "https://github.com/Mohaneswari-Pugazenthi.png",
+      "profile": "https://github.com/Mohaneswari-Pugazenthi",
+      "contributions": [
+        "code",
+        "ideas"
+      ]
+    },
+    {
+      "login": "DHINESH-KRISHNAMOORTHY",
+      "name": "Dhinesh K",
+      "avatar_url": "https://github.com/DHINESH-KRISHNAMOORTHY.png",
+      "profile": "https://github.com/DHINESH-KRISHNAMOORTHY",
+      "contributions": [
+        "doc",
+        "ideas"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7
+}
