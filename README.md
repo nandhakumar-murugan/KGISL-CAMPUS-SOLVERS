@@ -56,6 +56,7 @@ The Google Student Community at KiTE represents an active, student-driven develo
 | **[projects/03_hostel_canteen_hub/](projects/03_hostel_canteen_hub/)** | **Student Life & Dining Logistics** | Daily hostel mess menu tracker (IIM Men's Hostel), canteen feedback analytics, and nutritional voting. | 🟢 Active |
 | **[projects/04_academic_writing_assistant/](projects/04_academic_writing_assistant/)** | **Academic Writing & Research** | Offline-friendly sentence analysis with optional Gemini explanations for research publications, lab reports, and technical documentation. | 🟢 Shipped |
 | **[projects/05_campus_smart_print_hub/](projects/05_campus_smart_print_hub/)** | **Campus Resource & Hardware Logistics** | Digital pre-print queue and token generator for central campus print facilities (KITE, KGCAS, IIM) eliminating lunch-hour bottlenecks. | 🚀 In Progress (Bala + Prabakar) |
+| **[projects/06_campus_notice_copilot_extension/](projects/06_campus_notice_copilot_extension/)** | **Student Life & Real-Time Communication** | Production Chrome extension auto-extracting circulars, exam dates, deadlines, and homework from WhatsApp Web with 1-click Google Calendar sync. | 🟢 Shipped |
 
 ---
 
