@@ -4,8 +4,17 @@ A simple Python starter for collecting and logging student feedback on hostel me
 
 ## ✨ Current Features
 
-- **📝 Feedback Recording** — `record_feedback()` in `canteen_feedback.py` takes a student ID, meal type, rating (out of 5), and comment, timestamps it, and prints a confirmation.
-- **📋 Weekly Mess Menu Data** — `mess_menu.json` stores the full weekly breakfast/lunch/snacks/dinner schedule for the KGiSL IIM Men's Hostel Mess, including meal timings and special Sunday menus.
+- **📝 Feedback Recording Engine** — `record_feedback()` in `canteen_feedback.py` records student feedback with automatic ISO timestamps:
+  - `student_id` (str): Student registration / roll number
+  - `meal_type` (str): `Breakfast` | `Lunch` | `Snacks` | `Dinner`
+  - `rating` (int): Scale of 1 to 5 stars
+  - `comment` (str): Detailed feedback on quality, hygiene, or quantity
+- **📋 Weekly Mess Menu & Timing Structure** — `mess_menu.json` stores the weekly meal schedule for the KGiSL IIM Men's Hostel Mess:
+  - **Breakfast**: 07:30 AM – 09:00 AM
+  - **Lunch**: 12:30 PM – 02:00 PM
+  - **Snacks**: 04:30 PM – 05:30 PM
+  - **Dinner**: 07:30 PM – 09:00 PM
+  - Includes special Sunday feast menus.
 
 > This is an early-stage tool. The menu file and feedback script are separate pieces right now — see **How to Contribute** below for what's missing (menu tracker UI, feedback analytics, voting).
 
