@@ -72,6 +72,7 @@ The Google Student Community at KiTE represents an active, student-driven develo
 | **[projects/04_academic_writing_assistant/](projects/04_academic_writing_assistant/)** | **Academic Writing & Research** | Offline-friendly sentence analysis with optional Gemini explanations for research publications, lab reports, and technical documentation. | 🟢 Shipped |
 | **[projects/05_campus_smart_print_hub/](projects/05_campus_smart_print_hub/)** | **Campus Resource & Hardware Logistics** | Digital pre-print queue and token generator for central campus print facilities (KITE, KGCAS, IIM) eliminating lunch-hour bottlenecks. | 🚀 In Progress (Bala + Prabakar) |
 | **[projects/06_campus_notice_copilot_extension/](projects/06_campus_notice_copilot_extension/)** | **Student Life & Real-Time Communication** | Production Chrome extension auto-extracting circulars, exam dates, deadlines, and homework from WhatsApp Web with 1-click Google Calendar sync. | 🟢 Shipped |
+| **[projects/07_open_agent_shield/](projects/07_open_agent_shield/)** | 🛡️ **Global AI Agent Safety & MCP Security Gateway** | **World-Class Flagship**: Zero-trust AST firewall and safety sandbox for autonomous AI agents (Claude Code, Antigravity, Cursor) intercepting destructive shell commands, mitigating ADB injections, and redacting leaked credentials in real-time. | 🌟 Global Flagship |
 
 ---
 
