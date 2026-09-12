@@ -84,6 +84,24 @@
         "doc",
         "ideas"
       ]
+    },
+    {
+      "login": "Blessy27-CSBS",
+      "name": "Maria Blessy R J",
+      "avatar_url": "https://github.com/Blessy27-CSBS.png",
+      "profile": "https://github.com/Blessy27-CSBS",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "anusha-2024-aia",
+      "name": "Anusha",
+      "avatar_url": "https://github.com/anusha-2024-aia.png",
+      "profile": "https://github.com/anusha-2024-aia",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7
