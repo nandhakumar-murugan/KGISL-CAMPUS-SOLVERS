@@ -12,9 +12,6 @@ st.set_page_config(
     layout="centered"
 )
 
-st.title("🎓 KiTE Smart Academic & Examination AI Assistant")
-st.caption("Autonomous Engineering Exam Preparation & Syllabus Revision • Powered by Google Gemini")
-
 # Sidebar configuration
 with st.sidebar:
     st.header("⚙️ Configuration")
@@ -28,11 +25,28 @@ with st.sidebar:
 
     st.markdown("---")
     st.markdown("### 🏛️ KiTE Departments")
-    st.markdown("- CS & Cybersecurity")
-    st.markdown("- AI & Data Science")
-    st.markdown("- Computer Science (CSE)")
-    st.markdown("- Information Technology")
-    st.markdown("- CSBS / ECE / Mech")
+
+    department_options = [
+        "CSC",
+        "AIDS",
+        "CSBS",
+        "IT",
+        "AIML",
+        "Cyber Security",
+        "Robotics and Automation",
+        "ECE",
+        "MECH"
+    ]
+
+    selected_department = st.selectbox(
+        "Select Department:",
+        department_options
+    )
+
+st.title(
+    f"🎓 KiTE Smart Academic & Examination AI Assistant - {selected_department}"
+)
+st.caption("Autonomous Engineering Exam Preparation & Syllabus Revision • Powered by Google Gemini")
 
 # Subject Selection
 subject_options = [

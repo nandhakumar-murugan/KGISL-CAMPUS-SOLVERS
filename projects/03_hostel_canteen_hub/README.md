@@ -1,21 +1,34 @@
 # 🍽️ Hostel Canteen Hub
 
-A simple Python-based mess and feedback tracker for hostel students. This project helps students view the weekly menu and submit quick feedback about meals, with a lightweight foundation for future analytics and reporting.
+A simple but practical hostel mess dashboard built for students to quickly check the daily menu, view serving times, and submit meal feedback. The app is designed to make student dining information easier to access and more actionable for hostel administrators.
 
 ## ✨ Features
 
-- **📝 Feedback logging** — `record_feedback()` captures student ID, meal type, rating, comment, and timestamp.
-- **📋 Weekly menu tracker** — `mess_menu.json` stores the breakfast, lunch, snacks, and dinner schedule for each weekday.
-- **📊 Menu lookup helper** — `get_menu_for_day()` retrieves the menu for any selected day and meal type.
-- **🌐 Streamlit UI** — a small web interface lets users browse the menu and submit feedback from the browser.
-- **✅ Test coverage** — the project includes validation tests for menu lookup and feedback persistence.
+- **📋 Meal menu browser** — view the menu for any day and meal type
+- **⏰ Meal timing display** — shows the service window for breakfast, lunch, snacks, and dinner
+- **⭐ Rating summary cards** — quick insight into feedback for each meal category
+- **📝 Student feedback form** — submit rating, comments, and student ID directly from the dashboard
+- **📊 Data persistence** — stores feedback to JSON for lightweight tracking and analysis
+- **✅ Automated validation** — tests ensure menu logic and feedback logging remain reliable
+
+## 🧩 What the app does
+
+This project helps hostel students:
+
+- choose the day and meal they want to check
+- read the menu items for that meal
+- see serving time information
+- submit a rating and comment
+- review quick meal feedback summaries
+
+It is built as a lightweight, beginner-friendly Streamlit app with future-ready analytics potential.
 
 ## 🛠️ Tech Stack
 
 - **Python 3**
-- **Streamlit** for the UI
+- **Streamlit** for the web interface
 - **JSON** for menu and feedback storage
-- **Pytest** for automated validation
+- **Pytest** for test validation
 
 ## 🚀 Getting Started
 
@@ -36,36 +49,45 @@ python -m venv .venv
 pip install -r requirements.txt
 ```
 
-### 4. Run the script
-```bash
-python canteen_feedback.py
-```
-
-### 5. Launch the Streamlit app
+### 4. Run the application
 ```bash
 streamlit run streamlit_app.py
+```
+
+### 5. Optional: run the Python helper module directly
+```bash
+python canteen_feedback.py
 ```
 
 ## 📁 Project Structure
 
 | File | Purpose |
 |------|---------|
-| `canteen_feedback.py` | Handles menu lookup and feedback recording |
-| `mess_menu.json` | Weekly mess menu data for the hostel |
-| `streamlit_app.py` | Minimal user interface for viewing the menu and submitting feedback |
-| `feedback_log.json` | Stores submitted feedback entries |
-| `tests/test_canteen.py` | Verifies menu and feedback behavior |
+| `canteen_feedback.py` | Core logic for menu lookup, meal timings, and feedback recording |
+| `mess_menu.json` | Weekly hostel menu data |
+| `streamlit_app.py` | Interactive UI for viewing menu and submitting feedback |
+| `feedback_log.json` | Stores submitted feedback records |
+| `requirements.txt` | Required Python dependencies |
+| `tests/test_canteen.py` | Automated tests for menu and feedback behavior |
 
-## 🤝 How to Contribute
+## 🧠 Example workflow
 
-This project is a great beginner-friendly open-source contribution opportunity. Some good next steps include:
+1. Select a day from the dropdown
+2. Choose a meal such as breakfast or lunch
+3. Review the served items and timing
+4. Enter student ID, rating, and comment
+5. Submit feedback to store the review
 
-- **Feedback analytics** — calculate average ratings, identify popular meals, and show trends over time.
-- **Menu dashboard improvements** — enhance the Streamlit UI with filters, summary cards, and a cleaner layout.
-- **Nutritional voting** — let students vote on healthier or more preferred menu items.
-- **Input validation** — improve handling for invalid ratings, empty comments, and duplicate submissions.
-- **CSV/Excel export** — allow admins to download feedback reports.
-- **More tests** — add coverage for edge cases such as invalid meal names or invalid day values.
-- **Documentation updates** — add screenshots and a short demo section for easier onboarding.
+## 🤝 Future enhancements
 
-Contributions of all levels are welcome. If you find a bug or have an idea for improvement, open an issue or submit a pull request.
+This project is a great beginner-friendly contribution area. Some useful improvements include:
+
+- **Feedback analytics dashboard** — average ratings by meal and trends over time
+- **Admin report export** — CSV/Excel download for hostel staff
+- **Meal popularity insights** — identify the most liked meal categories
+- **Input validation improvements** — duplicate checks and cleaner validation logic
+- **Health-focused meal filters** — highlight healthier or preferred menu items
+- **Better visualization** — charts and summaries for daily feedback patterns
+
+Contributions are welcome. If you want to improve the app or fix a bug, open an issue or submit a pull request.
+
