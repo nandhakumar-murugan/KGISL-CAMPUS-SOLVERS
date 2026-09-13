@@ -1,68 +1,93 @@
 # 🍽️ Hostel Canteen Hub
 
-A simple Python starter for collecting and logging student feedback on hostel mess meals, paired with a structured weekly mess menu — built as a foundation for a fuller canteen feedback and menu system.
+A simple but practical hostel mess dashboard built for students to quickly check the daily menu, view serving times, and submit meal feedback. The app is designed to make student dining information easier to access and more actionable for hostel administrators.
 
-## ✨ Current Features
+## ✨ Features
 
-- **📝 Feedback Recording Engine** — `record_feedback()` in `canteen_feedback.py` records student feedback with automatic ISO timestamps:
-  - `student_id` (str): Student registration / roll number
-  - `meal_type` (str): `Breakfast` | `Lunch` | `Snacks` | `Dinner`
-  - `rating` (int): Scale of 1 to 5 stars
-  - `comment` (str): Detailed feedback on quality, hygiene, or quantity
-- **📋 Weekly Mess Menu & Timing Structure** — `mess_menu.json` stores the weekly meal schedule for the KGiSL IIM Men's Hostel Mess:
-  - **Breakfast**: 07:30 AM – 09:00 AM
-  - **Lunch**: 12:30 PM – 02:00 PM
-  - **Snacks**: 04:30 PM – 05:30 PM
-  - **Dinner**: 07:30 PM – 09:00 PM
-  - Includes special Sunday feast menus.
+- **📋 Meal menu browser** — view the menu for any day and meal type
+- **⏰ Meal timing display** — shows the service window for breakfast, lunch, snacks, and dinner
+- **⭐ Rating summary cards** — quick insight into feedback for each meal category
+- **📝 Student feedback form** — submit rating, comments, and student ID directly from the dashboard
+- **📊 Data persistence** — stores feedback to JSON for lightweight tracking and analysis
+- **✅ Automated validation** — tests ensure menu logic and feedback logging remain reliable
 
-> This is an early-stage tool. The menu file and feedback script are separate pieces right now — see **How to Contribute** below for what's missing (menu tracker UI, feedback analytics, voting).
+## 🧩 What the app does
+
+This project helps hostel students:
+
+- choose the day and meal they want to check
+- read the menu items for that meal
+- see serving time information
+- submit a rating and comment
+- review quick meal feedback summaries
+
+It is built as a lightweight, beginner-friendly Streamlit app with future-ready analytics potential.
 
 ## 🛠️ Tech Stack
 
-- **Python 3** (standard library only — `json`, `datetime`)
-- **JSON** for menu data storage
+- **Python 3**
+- **Streamlit** for the web interface
+- **JSON** for menu and feedback storage
+- **Pytest** for test validation
 
-## 🚀 How to Run
+## 🚀 Getting Started
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/nandhakumar-murugan/KGISL-CAMPUS-SOLVERS.git
-   cd KGISL-CAMPUS-SOLVERS/projects/03_hostel_canteen_hub
-   ```
+### 1. Clone the repository
+```bash
+git clone https://github.com/nandhakumar-murugan/KGISL-CAMPUS-SOLVERS.git
+cd KGISL-CAMPUS-SOLVERS/projects/03_hostel_canteen_hub
+```
 
-2. **Make sure Python 3 is installed**
-   ```bash
-   python --version
-   ```
+### 2. Create a virtual environment (optional but recommended)
+```bash
+python -m venv .venv
+.venv\Scripts\activate
+```
 
-3. **Run the script**
-   ```bash
-   python canteen_feedback.py
-   ```
-   This runs a demo call to `record_feedback()` and prints the recorded feedback to the console.
+### 3. Install dependencies
+```bash
+pip install -r requirements.txt
+```
 
-4. **Explore the menu data**
-   Open `mess_menu.json` to see the weekly mess schedule — it's not yet wired into the script, but it's ready to be read and displayed.
+### 4. Run the application
+```bash
+streamlit run streamlit_app.py
+```
 
-## 📂 Project Files
+### 5. Optional: run the Python helper module directly
+```bash
+python canteen_feedback.py
+```
+
+## 📁 Project Structure
 
 | File | Purpose |
 |------|---------|
-| `canteen_feedback.py` | Defines `record_feedback(student_id, meal_type, rating, comment)` — builds a feedback entry with a timestamp and prints it |
-| `mess_menu.json` | Weekly mess menu (breakfast/lunch/snacks/dinner) with meal timings for the KGiSL IIM Men's Hostel |
+| `canteen_feedback.py` | Core logic for menu lookup, meal timings, and feedback recording |
+| `mess_menu.json` | Weekly hostel menu data |
+| `streamlit_app.py` | Interactive UI for viewing menu and submitting feedback |
+| `feedback_log.json` | Stores submitted feedback records |
+| `requirements.txt` | Required Python dependencies |
+| `tests/test_canteen.py` | Automated tests for menu and feedback behavior |
 
-## 🤝 How to Contribute
+## 🧠 Example workflow
 
-This is a great beginner-friendly project to build on. Ideas:
+1. Select a day from the dropdown
+2. Choose a meal such as breakfast or lunch
+3. Review the served items and timing
+4. Enter student ID, rating, and comment
+5. Submit feedback to store the review
 
-- **Menu Tracker** — write a function that reads `mess_menu.json` and prints/shows "what's for lunch today" based on the current day
-- **Persist feedback** — currently feedback prints and is discarded; save entries to a file or small database (e.g. append to a JSON/CSV log)
-- **Feedback analytics** — once feedback is saved, add a summary function (average rating per meal, most-commented dish, etc.)
-- **Nutritional voting** — add a simple voting mechanism so students can flag preferred/healthier menu items
-- **Input validation** — handle bad ratings (e.g. outside 1–5) or empty comments gracefully
-- **CLI menu** — turn the script into an interactive loop instead of one hardcoded demo call
-- **Tests** — add unit tests for `record_feedback()`
-- **Screenshot** — add one here once you've run it, so future contributors know what to expect
+## 🤝 Future enhancements
 
-Found a bug or have an idea beyond this list? Open an issue or submit a PR — no prior experience needed to get started!
+This project is a great beginner-friendly contribution area. Some useful improvements include:
+
+- **Feedback analytics dashboard** — average ratings by meal and trends over time
+- **Admin report export** — CSV/Excel download for hostel staff
+- **Meal popularity insights** — identify the most liked meal categories
+- **Input validation improvements** — duplicate checks and cleaner validation logic
+- **Health-focused meal filters** — highlight healthier or preferred menu items
+- **Better visualization** — charts and summaries for daily feedback patterns
+
+Contributions are welcome. If you want to improve the app or fix a bug, open an issue or submit a pull request.
+
