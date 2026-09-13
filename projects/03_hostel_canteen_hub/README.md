@@ -1,59 +1,71 @@
 # 🍽️ Hostel Canteen Hub
 
-A simple Python starter for collecting and logging student feedback on hostel mess meals, paired with a structured weekly mess menu — built as a foundation for a fuller canteen feedback and menu system.
+A simple Python-based mess and feedback tracker for hostel students. This project helps students view the weekly menu and submit quick feedback about meals, with a lightweight foundation for future analytics and reporting.
 
-## ✨ Current Features
+## ✨ Features
 
-- **📝 Feedback Recording** — `record_feedback()` in `canteen_feedback.py` takes a student ID, meal type, rating (out of 5), and comment, timestamps it, and prints a confirmation.
-- **📋 Weekly Mess Menu Data** — `mess_menu.json` stores the full weekly breakfast/lunch/snacks/dinner schedule for the KGiSL IIM Men's Hostel Mess, including meal timings and special Sunday menus.
-
-> This is an early-stage tool. The menu file and feedback script are separate pieces right now — see **How to Contribute** below for what's missing (menu tracker UI, feedback analytics, voting).
+- **📝 Feedback logging** — `record_feedback()` captures student ID, meal type, rating, comment, and timestamp.
+- **📋 Weekly menu tracker** — `mess_menu.json` stores the breakfast, lunch, snacks, and dinner schedule for each weekday.
+- **📊 Menu lookup helper** — `get_menu_for_day()` retrieves the menu for any selected day and meal type.
+- **🌐 Streamlit UI** — a small web interface lets users browse the menu and submit feedback from the browser.
+- **✅ Test coverage** — the project includes validation tests for menu lookup and feedback persistence.
 
 ## 🛠️ Tech Stack
 
-- **Python 3** (standard library only — `json`, `datetime`)
-- **JSON** for menu data storage
+- **Python 3**
+- **Streamlit** for the UI
+- **JSON** for menu and feedback storage
+- **Pytest** for automated validation
 
-## 🚀 How to Run
+## 🚀 Getting Started
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/nandhakumar-murugan/KGISL-CAMPUS-SOLVERS.git
-   cd KGISL-CAMPUS-SOLVERS/projects/03_hostel_canteen_hub
-   ```
+### 1. Clone the repository
+```bash
+git clone https://github.com/nandhakumar-murugan/KGISL-CAMPUS-SOLVERS.git
+cd KGISL-CAMPUS-SOLVERS/projects/03_hostel_canteen_hub
+```
 
-2. **Make sure Python 3 is installed**
-   ```bash
-   python --version
-   ```
+### 2. Create a virtual environment (optional but recommended)
+```bash
+python -m venv .venv
+.venv\Scripts\activate
+```
 
-3. **Run the script**
-   ```bash
-   python canteen_feedback.py
-   ```
-   This runs a demo call to `record_feedback()` and prints the recorded feedback to the console.
+### 3. Install dependencies
+```bash
+pip install -r requirements.txt
+```
 
-4. **Explore the menu data**
-   Open `mess_menu.json` to see the weekly mess schedule — it's not yet wired into the script, but it's ready to be read and displayed.
+### 4. Run the script
+```bash
+python canteen_feedback.py
+```
 
-## 📂 Project Files
+### 5. Launch the Streamlit app
+```bash
+streamlit run streamlit_app.py
+```
+
+## 📁 Project Structure
 
 | File | Purpose |
 |------|---------|
-| `canteen_feedback.py` | Defines `record_feedback(student_id, meal_type, rating, comment)` — builds a feedback entry with a timestamp and prints it |
-| `mess_menu.json` | Weekly mess menu (breakfast/lunch/snacks/dinner) with meal timings for the KGiSL IIM Men's Hostel |
+| `canteen_feedback.py` | Handles menu lookup and feedback recording |
+| `mess_menu.json` | Weekly mess menu data for the hostel |
+| `streamlit_app.py` | Minimal user interface for viewing the menu and submitting feedback |
+| `feedback_log.json` | Stores submitted feedback entries |
+| `tests/test_canteen.py` | Verifies menu and feedback behavior |
 
 ## 🤝 How to Contribute
 
-This is a great beginner-friendly project to build on. Ideas:
+This project is a great beginner-friendly open-source contribution opportunity. Some good next steps include:
 
-- **Menu Tracker** — write a function that reads `mess_menu.json` and prints/shows "what's for lunch today" based on the current day
-- **Persist feedback** — currently feedback prints and is discarded; save entries to a file or small database (e.g. append to a JSON/CSV log)
-- **Feedback analytics** — once feedback is saved, add a summary function (average rating per meal, most-commented dish, etc.)
-- **Nutritional voting** — add a simple voting mechanism so students can flag preferred/healthier menu items
-- **Input validation** — handle bad ratings (e.g. outside 1–5) or empty comments gracefully
-- **CLI menu** — turn the script into an interactive loop instead of one hardcoded demo call
-- **Tests** — add unit tests for `record_feedback()`
-- **Screenshot** — add one here once you've run it, so future contributors know what to expect
+- **Feedback analytics** — calculate average ratings, identify popular meals, and show trends over time.
+- **Menu dashboard improvements** — enhance the Streamlit UI with filters, summary cards, and a cleaner layout.
+- **Nutritional voting** — let students vote on healthier or more preferred menu items.
+- **Input validation** — improve handling for invalid ratings, empty comments, and duplicate submissions.
+- **CSV/Excel export** — allow admins to download feedback reports.
+- **More tests** — add coverage for edge cases such as invalid meal names or invalid day values.
+- **Documentation updates** — add screenshots and a short demo section for easier onboarding.
 
-Found a bug or have an idea beyond this list? Open an issue or submit a PR — no prior experience needed to get started!
+Contributions of all levels are welcome. If you find a bug or have an idea for improvement, open an issue or submit a pull request.
